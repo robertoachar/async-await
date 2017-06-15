@@ -1,0 +1,22 @@
+{
+  "name": "async-await",
+  "version": "1.0.0",
+  "description": "async-await samples",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/async-await#readme",
+  "keywords": [
+    "node-js",
+    "async-await"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/async-await.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/async-await/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
