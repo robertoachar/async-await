@@ -13,8 +13,8 @@ async function getPerson(id) {
 
 async function loadPerson(id) {
   try {
-    const peolple = await getPerson(id);
-    console.log(peolple.name);
+    const person = await getPerson(id);
+    console.log(person.name);
 
   } catch (err) {
     console.error(err.message);
