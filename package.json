@@ -18,7 +18,9 @@
   "bugs": {
     "url": "https://github.com/robertoachar/async-await/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "1.7.1"
+  },
   "devDependencies": {
     "eslint": "4.0.0"
   },
