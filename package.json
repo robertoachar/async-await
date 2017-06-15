@@ -8,7 +8,9 @@
     "node-js",
     "async-await"
   ],
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint src/**/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/robertoachar/async-await.git"
@@ -17,6 +19,8 @@
     "url": "https://github.com/robertoachar/async-await/issues"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "4.0.0"
+  },
   "license": "MIT"
 }
