@@ -4,12 +4,9 @@
   "description": "async-await samples",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/async-await#readme",
-  "keywords": [
-    "node-js",
-    "async-await"
-  ],
+  "keywords": ["node", "async-await", "async", "await"],
   "scripts": {
-    "lint": "eslint src/**/*.js"
+    "lint": "eslint src/**/*.js --fix"
   },
   "repository": {
     "type": "git",
@@ -19,10 +16,13 @@
     "url": "https://github.com/robertoachar/async-await/issues"
   },
   "dependencies": {
-    "node-fetch": "1.7.1"
+    "node-fetch": "1.7.3"
   },
   "devDependencies": {
-    "eslint": "4.0.0"
+    "eslint": "4.15.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.4.0",
+    "prettier": "1.10.1"
   },
   "license": "MIT"
 }

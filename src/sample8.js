@@ -15,7 +15,6 @@ async function loadPerson(id) {
   try {
     const person = await getPerson(id);
     console.log(person.name);
-
   } catch (err) {
     console.error(err.message);
   }

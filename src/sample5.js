@@ -6,5 +6,4 @@ async function getPerson(id) {
 }
 
 // undefined
-getPerson(0)
-  .then(person => console.log(person.name));
+getPerson(0).then((person) => console.log(person.name));

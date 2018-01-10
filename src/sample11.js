@@ -9,6 +9,6 @@ const person = await getPerson(1);
 console.log(person.name);
 
 // const person = await getPerson(1);
-//                    ^^^^^^^
+//                ^^^^^
 //
-// SyntaxError: Unexpected identifier
+// SyntaxError: await is only valid in async function

@@ -12,9 +12,9 @@ async function getPerson(id) {
 }
 
 getPerson(0)
-  .then(person => console.log(person.name))
-  .catch(err => console.error(err.message));
+  .then((person) => console.log(person.name))
+  .catch((err) => console.error(err.message));
 
 getPerson(1)
-  .then(person => console.log(person.name))
-  .catch(err => console.error(err.message));
+  .then((person) => console.log(person.name))
+  .catch((err) => console.error(err.message));

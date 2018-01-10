@@ -6,5 +6,4 @@ async function getPerson(id) {
 }
 
 // not found
-getPerson(0)
-  .then(person => console.log(person));
+getPerson(0).then((person) => console.log(person));

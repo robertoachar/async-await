@@ -5,5 +5,4 @@ async function getPerson(id) {
   return await response.json();
 }
 
-getPerson(1)
-  .then(person => console.log(person.name));
+getPerson(1).then((person) => console.log(person.name));

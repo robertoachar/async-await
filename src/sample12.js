@@ -6,7 +6,7 @@ const getPerson = async (id) => {
 };
 
 // IIFE - Immediately-Invoked Function Expression
-(async function () {
+(async function() {
   const person = await getPerson(1);
   console.log(person.name);
 })();
